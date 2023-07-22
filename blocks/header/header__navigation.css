@@ -1,0 +1,15 @@
+.header__navigation {
+    display: table-column;
+    justify-content:space-between;
+    align-items: center;
+
+    text-decoration: none;
+    word-spacing: 50px;
+ 
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
