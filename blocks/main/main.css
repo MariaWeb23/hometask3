@@ -1,0 +1,27 @@
+.container{
+display: flex;
+width: 700px;
+height: auto;
+justify-content: space-around;
+} 
+
+
+.appeal{
+    font-family: Inter;
+    font-size: 96px;
+    font-style: medium;
+    color: white;
+    padding-top:100px;
+    inline-size: -5px;
+    padding-left:5px;
+}
+.forwhom{
+    font-family: Inter;
+    font-size: 52px;
+    font-style: Italic;
+    color: white;
+    padding-left:60px;
+  
+
+}
+

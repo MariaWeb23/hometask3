@@ -1,5 +1,12 @@
 .body{
     background-color: #201C1C;
-    font-family: 'Inter';
+    font-family: Inter;
     margin: auto;
 }
+
+.pic{
+    float: right;
+    padding-right:20px;
+   
+    
+    }
