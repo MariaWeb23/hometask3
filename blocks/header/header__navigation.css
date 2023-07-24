@@ -1,15 +1,21 @@
-.header__navigation {
-    display: table-column;
-    justify-content:space-between;
-    align-items: center;
-
+.navbar {
+    display:flex;
+   justify-content: space-around;
+    padding-left: 20px;
+    width: 700px;
+   
+   
+  }
+  .navbar a {
+    color:white;
+    padding: 5px 10px;
     text-decoration: none;
-    word-spacing: 50px;
- 
-}
-
-.button a {
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-}
+    font-weight: medium;
+    display: inline-block;
+    width: 100px;
+    font-family: Inter;
+    font: size 24px;
+  }
+  .navbar a:hover {
+    border-radius: 20px 5px;
+  }

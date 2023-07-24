@@ -1,4 +1,4 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap" rel="stylesheets">');
 @import url(./blocks/body/body.css);
 @import url(./blocks/body/header/header__logo.css);
-@import url(./blocks/body/header/header__navigation.css);
+@import url(./blocks/header/header__navigation.css);
