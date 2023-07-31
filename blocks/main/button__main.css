@@ -10,10 +10,11 @@
         border-radius: 45px;
         transition: 0.2s;
         margin-left:50px;
-        margin-bottom:200px;
+        margin-bottom:40px;
+        margin-top:90px;
       } 
 .button a{
-    font-family:'Inter';
+    font-family:'Roboto', sans-serif;
     font-size:50px;
     color:white;
     text-decoration: none;

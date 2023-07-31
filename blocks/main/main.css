@@ -7,20 +7,20 @@ justify-content: space-around;
 
 
 .appeal{
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif, bold;
     font-size: 96px;
-    font-style: medium;
+    /* font-style: medium; */
     color: white;
     padding-top:100px;
     inline-size: -5px;
-    padding-left:5px;
+    padding-left:20px;
 }
 .forwhom{
-    font-family: Inter;
-    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
     font-style: Italic;
     color: white;
-    padding-left:60px;
+    padding-left:100px;
   
 
 }
