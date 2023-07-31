@@ -5,6 +5,9 @@ height: auto;
 justify-content: space-around;
 } 
 
+/* .meta{
+    display:none;
+} */
 
 .appeal{
     font-family: 'Roboto', sans-serif, bold;

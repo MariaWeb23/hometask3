@@ -1,13 +1,21 @@
-.body{
+.body {
 
     background-color: #201C1C;
     font-family: 'Roboto', sans-serif;
     margin: auto;
 }
 
-.pic{
+.pic {
     float: right;
-    padding-right:20px;
-   
-    
+    padding-right: 20px;
+
+
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 1338px) {
+ .pic {
+        width: 50%;
+        height: 50%;
+
     }
+} */
