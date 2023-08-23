@@ -1,69 +1,93 @@
 <!DOCTYPE html>
 <html lang="ru">
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 
-<body>
-  <meta charset="UTF-8">
-  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<head>
 
-  <body class="body">
-    <div class="pic"><img src="img/main.png" alt="Maria"></div>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <head>
-     
-      <title>Personal brand</title>
-      <link rel="stylesheet" href="./style.css" />
+<body class="body">
+  <div class="pic"><img src="img/main.png" alt="Maria"></div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-      <div class="header">
-        <div class="navigation">
-          <ul class="navbar">
-            <img src="img/logo.png" alt="Logo" />
 
+
+  <title>Personal brand</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./blocks/burger menu/reset.css" />
+  <img src="img/logo.png" alt="Logo" />
+</head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+         
+          <ul class="menu" id="menu">
             <li><a href="./aboutMe.html">Обо мне</a></li>
             <li><a href="./projects.html">Проекты</a></li>
             <li><a href="#">Отзывы</a></li>
-
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Контакты</a></li>
           </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="popup" id="popup"></div>
+
+
+
+    <header class="header">
+      <div class="container">
+        <div class="content">
 
         </div>
-        </nav>
-
       </div>
-      </div>
-    </head>
-
-    <main>
-      <div section="container">
-        <!-- <meta property="og:description" content="СДЕЛАЮ САЙТ"> -->
-        <div class="appeal">СДЕЛАЮ САЙТ</div>
+    </header>
+    <main class="main">
+      <div class="appeal">СДЕЛАЮ САЙТ</div>
         <br></br>
         <div class="forwhom">ДЛЯ САМОЗАНЯТЫХ</div>
         <br></br>
       </div>
       <div class="button">
         <a href="./application form.html">оставить заявку</a>
+      </div>
+      <div class="container">
+        <div class="content">
         </div>
-       
-        
-
-        
-      
-
-
-
+      </div>
     </main>
+    <footer class="footer">
+      <footer>
+        <div class="footer">
+          <div class="container">
+           
+                  <div class="content">
+                    <p class="ft_soc_icon">
+                      <a href="#" target="_blank"> <img src="img/VK3.png" aria-hidden="true"></i> </a>
+                      <a href="https://t.me/masha_fairy_tales" target="_blank"> <img src="img/Telegram4.png"
+                          aria-hidden="true"></i> </a>
+                          <br></br>
+                    &copy; 2023 Maria Usacheva
+                  </div>
+            </p>
+          </div>
+        </div>
+      </footer>
+      <script src="blocks/burger menu/app.js"></script>
+    </body>
+  
+  </html>
 
 
-    <footer>
-      <div class="footer"><div class="container">
-        <p class="ft_soc_icon">
-          <a href="#" target="_blank"> <img src="img/VK3.png" aria-hidden="true"></i> </a>
-          <a href="https://t.me/masha_fairy_tales" target="_blank"> <img src="img/Telegram4.png" aria-hidden="true"></i> </a>
-        </p>
-      </div>
-      </div>
-    </footer>
-  </body>
-
-</html>

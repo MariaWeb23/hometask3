@@ -1,6 +1,6 @@
 /* contact_section */
 .body{
-  background-color: #201C1C;
+  
   font-family: 'Roboto', sans-serif;
 }
 
@@ -9,18 +9,25 @@
   padding-right:20px;}
  
   
-  /* }
+  
 .heading_style {
   font-family: 'Roboto', sans-serif;
   display:flex;
   font-size: 24px;
 
-  /* justify-content: center; */
-  /* color:white;
+  justify-content: center; 
+  color:white;
   margin-top: 60px;
   margin-left:12%;
-} */
+}
 
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: white;
+  font-weight: lighter;
+  font-style: oblique;
+}
 
 .contact_section .col-md-6 {
     padding: 0;
@@ -31,7 +38,7 @@
     
     padding: 60px;
     background-color: #FFC0CB;
-    /* justify-content: center; */
+    justify-content: center; 
     border-radius: 25px;
     margin-top:100px;
     padding-left: 50px;
